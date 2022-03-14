@@ -2,7 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using TaskManagerWebApi.Models;
 using TaskManagerWebApi.Repository;
+using Microsoft.AspNetCore.Identity;
+using System.Threading.Tasks;
 
 namespace TaskManagerWebApi.Controllers
 {
@@ -12,9 +15,15 @@ namespace TaskManagerWebApi.Controllers
     public class LoginController : ControllerBase
     {
         private readonly IJwtAuth _jwtAuth;
-        public LoginController(IJwtAuth jwtAuth)
+        private RoleManager<IdentityRole> roleManager;
+        private UserManager<ApplicationUser> userManager;
+        private SignInManager<ApplicationUser> signInManager;
+        public LoginController(IJwtAuth jwtAuth, RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _jwtAuth = jwtAuth;
+            this.roleManager = roleManager;
+            this.userManager = userManager;
+            this.signInManager = signInManager;
         }
 
 
@@ -36,12 +45,29 @@ namespace TaskManagerWebApi.Controllers
         [AllowAnonymous]
         // POST api/<MembersController>
         [HttpPost("authentication")]
-        public IActionResult Authentication([FromBody] UserCredential _userCredential)
-        {
+        public async Task<IActionResult> Authentication([FromBody] UserCredential _userCredential)
+        { 
+           
+            var user = await userManager.FindByNameAsync(_userCredential.UserName);
+            if (user == null)
+            {
+                return Ok(new UserManagerResponse { Message = "Wrong Creadentials", IsSuccess = false });
+            }
             var token = _jwtAuth.Authentication(_userCredential.UserName, _userCredential.Password);
             if (token == null)
                 return Unauthorized();
-            return Ok(token);
+            var rolename = "User";
+            if (await userManager.IsInRoleAsync(user, "Admin"))
+                rolename = "Admin";
+            //  return Ok(token);
+
+            return Ok(new UserManagerResponse
+            {
+                Message = token,
+                IsSuccess = true,
+                RoleName = rolename
+               
+            });
         }
     }
 }

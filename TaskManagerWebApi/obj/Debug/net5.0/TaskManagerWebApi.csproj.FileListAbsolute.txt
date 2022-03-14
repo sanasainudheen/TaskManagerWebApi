@@ -292,3 +292,13 @@ C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\refint\
 C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
 C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
 C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.Views.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.Views.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorAssemblyInfo.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorAssemblyInfo.cs
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.TagHelpers.input.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.TagHelpers.output.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorCoreGenerate.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\Razor\Views\Execute\Index.cshtml.g.cs
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cs
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.Views.pdb

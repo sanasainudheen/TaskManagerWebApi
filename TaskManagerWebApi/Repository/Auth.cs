@@ -8,19 +8,14 @@ namespace TaskManagerWebApi.Repository
 {
     public class Auth: IJwtAuth
     {
-        private readonly string username = "sana";
-        private readonly string password = "1234";
+      
         private readonly string key;
         public Auth(string key)
         {
             this.key = key;
         }
         public string Authentication(string uname, string pwd)
-        {
-            if (!(username.Equals(uname) && password.Equals(pwd)))
-            {
-                return null;
-            }
+        {          
             // 1. Create Security Token Handler
             var tokenHandler = new JwtSecurityTokenHandler();
 
@@ -33,7 +28,7 @@ namespace TaskManagerWebApi.Repository
                 Subject = new ClaimsIdentity(
                     new Claim[]
                     {
-                        new Claim(ClaimTypes.Name, username)
+                        new Claim(ClaimTypes.Name, uname)
                     }),
                 Expires = DateTime.UtcNow.AddHours(1),
                 SigningCredentials = new SigningCredentials(

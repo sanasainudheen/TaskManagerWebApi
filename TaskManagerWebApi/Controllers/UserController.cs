@@ -70,7 +70,7 @@ namespace TaskManagerWebApi.Controllers
             var result = await userManager.CreateAsync(user, EncryptString(model.Password));
             if (result.Succeeded)
             {
-              //  await userManager.AddToRoleAsync(user, "User");
+               await userManager.AddToRoleAsync(user, "User");
 
                 return Ok(new UserManagerResponse
                 {
