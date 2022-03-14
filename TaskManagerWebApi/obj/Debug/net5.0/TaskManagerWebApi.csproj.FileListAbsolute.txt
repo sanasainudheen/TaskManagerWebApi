@@ -1,0 +1,294 @@
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.json
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.exe
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.deps.json
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.json
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.dev.json
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Humanizer.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.AssemblyReference.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfoInputs.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfo.cs
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CoreCompileInputs.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\scopedcss\bundle\TaskManagerWebApi.styles.css
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\staticwebassets\TaskManagerWebApi.StaticWebAssets.Manifest.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cache
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CopyComplete
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.json
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.exe
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.deps.json
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.json
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.dev.json
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Humanizer.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.AssemblyReference.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfoInputs.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfo.cs
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CoreCompileInputs.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\scopedcss\bundle\TaskManagerWebApi.styles.css
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\staticwebassets\TaskManagerWebApi.StaticWebAssets.Manifest.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CopyComplete
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\refint\TaskManagerWebApi.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
+C:\React\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\React\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.json
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.exe
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.deps.json
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.json
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.dev.json
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Humanizer.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.AssemblyReference.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfoInputs.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfo.cs
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CoreCompileInputs.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\scopedcss\bundle\TaskManagerWebApi.styles.css
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\staticwebassets\TaskManagerWebApi.StaticWebAssets.Manifest.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cache
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CopyComplete
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\my projects\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.json
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.exe
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.deps.json
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.json
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.dev.json
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Humanizer.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.AssemblyReference.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfoInputs.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfo.cs
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CoreCompileInputs.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\scopedcss\bundle\TaskManagerWebApi.styles.css
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\staticwebassets\TaskManagerWebApi.StaticWebAssets.Manifest.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cache
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CopyComplete
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
+E:\React\WebApi\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\appsettings.json
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.exe
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.deps.json
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.json
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.runtimeconfig.dev.json
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\TaskManagerWebApi.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Humanizer.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.AssemblyReference.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfoInputs.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.AssemblyInfo.cs
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CoreCompileInputs.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\scopedcss\bundle\TaskManagerWebApi.styles.css
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\staticwebassets\TaskManagerWebApi.StaticWebAssets.Manifest.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.RazorTargetAssemblyInfo.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.csproj.CopyComplete
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\refint\TaskManagerWebApi.dll
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.pdb
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\TaskManagerWebApi.genruntimeconfig.cache
+C:\React\07_03_2022\TaskManagerWebApi\TaskManagerWebApi\obj\Debug\net5.0\ref\TaskManagerWebApi.dll
