@@ -61,11 +61,12 @@ namespace TaskManagerWebApi.Controllers
                 rolename = "Admin";
             //  return Ok(token);
 
-            return Ok(new UserManagerResponse
+            return Ok(new LoginResponse
             {
                 Message = token,
                 IsSuccess = true,
-                RoleName = rolename
+                RoleName = rolename,
+                UserId= user.Id
                
             });
         }

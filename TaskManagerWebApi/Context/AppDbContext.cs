@@ -24,6 +24,9 @@ namespace TaskManagerWebApi.Context
         public DbSet<UserGroupTask> UserGroupTasks { get; set; }
 
         public DbSet<UserDetails> UserDetails { get; set; }
+        public DbSet<GroupTasksByUser> GroupTasks { get; set; }
+
+        public DbSet<AssignedTasks> AssignedTasks { get; set; }
 
 
     }

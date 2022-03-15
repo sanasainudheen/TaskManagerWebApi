@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using TaskManagerWebApi.Models;
 using TaskManagerWebApi.Repository;
@@ -132,6 +134,7 @@ namespace TaskManagerWebApi.Controllers
                 {
                     Message = "Task has been assigned to the user successfully.",
                     IsSuccess = true,
+                    ReturnValue=id
                 });
             }
             else
@@ -181,6 +184,26 @@ namespace TaskManagerWebApi.Controllers
             var userGroups = await _taskRepository.GetAllUserGroupTasks();
             return Ok(userGroups);
 
+        }
+        [HttpGet("GetGroupTasksByUser/{id}")]
+        public async Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id)
+        {
+            var GroupTasksByUser = await _taskRepository.GetGroupTasksByUser(id);
+            return GroupTasksByUser;
+        }
+
+        [HttpGet("AssignedTasksByUser/{id}/{statusId}")]
+        public async Task<List<AssignedTasks>> AssignedTasksByUser(string id,int statusId)
+        {
+            var AssignedTasksByUser = await _taskRepository.AssignedTasksByUser(id,statusId);
+            return AssignedTasksByUser;
+        }
+
+        [HttpGet("ViewTaskDetails/{logId}")]
+        public async Task<List<AssignedTasks>> ViewTaskDetails(int logId)
+        {
+            var AssignedTasksDetails= await _taskRepository.ViewTaskDetails(logId);
+            return AssignedTasksDetails;
         }
 
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -168,14 +169,45 @@ namespace TaskManagerWebApi.Repository
             };
             _context.TaskLogTable.Add(newTask);
             var result = await _context.SaveChangesAsync();
+            var TaskLogId = newTask.LogId;
             if (result > 0)
             {
 
                 int res = await UpdateUserGroupTaskStatus(taskLog.StatusId, taskLog.UserGroupTaskId);
-                    return res;
+                return TaskLogId;
             }
             else
                 return 0;
+        }
+    
+        public async Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id)
+        {
+            List<SqlParameter> parms = new List<SqlParameter> {
+            new SqlParameter { ParameterName = "@UserId", Value = id }
+    };
+            var records = await _context.GroupTasks.FromSqlRaw("EXEC SP_GetGroupTasksByUser @UserId", parms.ToArray()).ToListAsync();
+            return records;
+        }
+
+        public async Task<List<AssignedTasks>>AssignedTasksByUser(string id,int statusId)
+        {
+            var parameters = new List<SqlParameter>();
+           
+                parameters.Add(new SqlParameter("@UserId", id));
+            parameters.Add(new SqlParameter("@StatusId", statusId));
+        
+            var records = await _context.AssignedTasks.FromSqlRaw("EXEC SP_GetAssignedTasksByUser @UserId,@StatusId", parameters.ToArray()).ToListAsync();
+            return records;
+        }
+
+        public async Task<List<AssignedTasks>> ViewTaskDetails(int logId)
+        {
+            var parameters = new List<SqlParameter>();
+
+            parameters.Add(new SqlParameter("@LogId", logId));
+
+            var records = await _context.AssignedTasks.FromSqlRaw("EXEC SP_ViewTaskDetails @LogId", parameters.ToArray()).ToListAsync();
+            return records;
         }
     }
 }

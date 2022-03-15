@@ -24,5 +24,11 @@ namespace TaskManagerWebApi.Repository
 
         Task<List<FetchUserGroupTask>> GetAllUserGroupTasks();
         Task<List<TaskModel>> GetAllTasks();
+
+        Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id);
+
+        Task<List<AssignedTasks>> AssignedTasksByUser(string id,int statusId);
+
+        Task<List<AssignedTasks>> ViewTaskDetails(int logId);
     }
 }

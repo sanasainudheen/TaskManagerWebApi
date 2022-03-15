@@ -8,5 +8,7 @@ namespace TaskManagerWebApi.Models
         public IEnumerable<string> Errors { get; set; }
         public bool IsSuccess { get; set; }
         public string RoleName { get; set; }
+
+        public int ReturnValue { get; set; }
     }
 }
