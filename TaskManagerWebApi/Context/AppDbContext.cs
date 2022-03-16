@@ -28,6 +28,8 @@ namespace TaskManagerWebApi.Context
 
         public DbSet<AssignedTasks> AssignedTasks { get; set; }
 
+        public DbSet<PendingTasks> PendingTasks { get; set; }
+
 
     }
 }

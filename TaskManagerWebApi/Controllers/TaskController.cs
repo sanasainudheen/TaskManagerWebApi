@@ -145,11 +145,7 @@ namespace TaskManagerWebApi.Controllers
                     IsSuccess = false,
                 });
             }
-
-
         }
-
-
 
         [HttpDelete("{groupId}")]
         public async Task<IActionResult> DeleteGroup([FromRoute] int groupId)
@@ -193,17 +189,40 @@ namespace TaskManagerWebApi.Controllers
         }
 
         [HttpGet("AssignedTasksByUser/{id}/{statusId}")]
-        public async Task<List<AssignedTasks>> AssignedTasksByUser(string id,int statusId)
+        public async Task<List<PendingTasks>> AssignedTasksByUser(string id,int statusId)
         {
             var AssignedTasksByUser = await _taskRepository.AssignedTasksByUser(id,statusId);
             return AssignedTasksByUser;
         }
 
-        [HttpGet("ViewTaskDetails/{logId}")]
-        public async Task<List<AssignedTasks>> ViewTaskDetails(int logId)
+        [HttpGet("ViewTaskDetails/{userGroupTaskId}/{userId}")]
+        public async Task<List<AssignedTasks>> ViewTaskDetails(int userGroupTaskId,string userId)
         {
-            var AssignedTasksDetails= await _taskRepository.ViewTaskDetails(logId);
+            var AssignedTasksDetails= await _taskRepository.ViewTaskDetails(userGroupTaskId, userId);
             return AssignedTasksDetails;
+        }
+        [HttpPost("UpdateUserStatus")]
+        public async Task<IActionResult> UpdateUserStatus([FromBody] TaskLog taskLog)
+        {
+
+            var id = await _taskRepository.UpdateUserStatus(taskLog);
+            if (id != 0)
+            {
+                return Ok(new UserManagerResponse
+                {
+                    Message = "status has been updated  successfully.",
+                    IsSuccess = true,
+                    ReturnValue = id
+                });
+            }
+            else
+            {
+                return Ok(new UserManagerResponse
+                {
+                    Message = "Some error happened",
+                    IsSuccess = false,
+                });
+            }
         }
 
 

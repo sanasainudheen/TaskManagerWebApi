@@ -189,25 +189,52 @@ namespace TaskManagerWebApi.Repository
             return records;
         }
 
-        public async Task<List<AssignedTasks>>AssignedTasksByUser(string id,int statusId)
+        public async Task<List<PendingTasks>>AssignedTasksByUser(string id,int statusId)
         {
             var parameters = new List<SqlParameter>();
            
                 parameters.Add(new SqlParameter("@UserId", id));
             parameters.Add(new SqlParameter("@StatusId", statusId));
         
-            var records = await _context.AssignedTasks.FromSqlRaw("EXEC SP_GetAssignedTasksByUser @UserId,@StatusId", parameters.ToArray()).ToListAsync();
+            var records = await _context.PendingTasks.FromSqlRaw("EXEC SP_GetAssignedTasksByUser @UserId,@StatusId", parameters.ToArray()).ToListAsync();
             return records;
         }
 
-        public async Task<List<AssignedTasks>> ViewTaskDetails(int logId)
+        public async Task<List<AssignedTasks>> ViewTaskDetails(int userGroupTaskId, string userId)
         {
             var parameters = new List<SqlParameter>();
 
-            parameters.Add(new SqlParameter("@LogId", logId));
+            parameters.Add(new SqlParameter("@UserGroupTaskId", userGroupTaskId));
+            parameters.Add(new SqlParameter("@UserId", userId));
 
-            var records = await _context.AssignedTasks.FromSqlRaw("EXEC SP_ViewTaskDetails @LogId", parameters.ToArray()).ToListAsync();
+            var records = await _context.AssignedTasks.FromSqlRaw("EXEC SP_ViewTaskDetails @UserGroupTaskId,@UserId", parameters.ToArray()).ToListAsync();
             return records;
+        }
+        public async Task<int> UpdateUserStatus([FromBody] TaskLog taskLog)
+        {
+
+            var newTask = new TaskLog
+            {
+
+                UserGroupTaskId = taskLog.UserGroupTaskId,
+                UserId = taskLog.UserId,
+                StatusId = taskLog.StatusId,
+                Attachment = taskLog.Attachment,
+                Note = taskLog.Note,
+                CreatedBy = taskLog.CreatedBy,
+                CreatedOn = taskLog.CreatedOn,
+            };
+            _context.TaskLogTable.Add(newTask);
+            var result = await _context.SaveChangesAsync();
+            var TaskLogId = newTask.LogId;
+            if (result > 0)
+            {
+
+                int res = await UpdateUserGroupTaskStatus(taskLog.StatusId, taskLog.UserGroupTaskId);
+                return TaskLogId;
+            }
+            else
+                return 0;
         }
     }
 }

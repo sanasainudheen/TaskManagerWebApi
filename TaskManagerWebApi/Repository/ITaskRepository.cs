@@ -14,6 +14,7 @@ namespace TaskManagerWebApi.Repository
         Task<int> CreateUserGroup(UserGroup userGroup);
 
         Task<int> AssignTaskToUser(TaskLog taskLog);
+        Task<int> UpdateUserStatus(TaskLog taskLog);
 
         Task<int> CreateUserGroupTask(UserGroupTask userGroupTask);
         Task DeleteGroup(int groupId);
@@ -27,8 +28,8 @@ namespace TaskManagerWebApi.Repository
 
         Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id);
 
-        Task<List<AssignedTasks>> AssignedTasksByUser(string id,int statusId);
+        Task<List<PendingTasks>> AssignedTasksByUser(string id,int statusId);
 
-        Task<List<AssignedTasks>> ViewTaskDetails(int logId);
+        Task<List<AssignedTasks>> ViewTaskDetails(int userGroupTaskId, string userId);
     }
 }

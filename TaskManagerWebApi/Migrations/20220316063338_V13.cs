@@ -2,21 +2,19 @@
 
 namespace TaskManagerWebApi.Migrations
 {
-    public partial class V11 : Migration
+    public partial class V13 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            var sp = @"CREATE PROCEDURE [dbo].[SP_GetAssignedTasksByUser]  
+            var sp = @"ALTER PROCEDURE [dbo].[SP_GetAssignedTasksByUser]  
                       @UserId varchar(75)   ,
 					  @StatusId int
                 AS  
                 BEGIN  
                     SET NOCOUNT ON; 
-                  		select TL.LogId, UGT.UserGroupTaskId,T.TaskName,TL.Attachment,TL.Note,T.TaskDescription,
-					T.StartDate,T.EndDate,TL.CreatedOn
-					from TaskLogTable TL
-					inner join UserGroupTasks UGT on UGT.UserGroupTaskId=TL.UserGroupTaskId
-					inner join Tasks T On T.TaskId=UGT.TaskId					
+                  		select UGT.UserGroupTaskId,T.TaskName,T.TaskDescription,
+					T.StartDate,T.EndDate from UserGroupTasks UGT inner join Tasks T On T.TaskId=UGT.TaskId		
+				inner join UserGroups UG on UG.GroupId=UGT.GroupId
 					where UserId=@UserId and UGT.StatusId in (2,3)
                 END  ";
             migrationBuilder.Sql(sp);
@@ -24,8 +22,7 @@ namespace TaskManagerWebApi.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "GroupTasks");
+
         }
     }
 }
