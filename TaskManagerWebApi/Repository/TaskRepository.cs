@@ -155,11 +155,14 @@ namespace TaskManagerWebApi.Repository
 
         public async Task<int> AssignTaskToUser([FromBody] TaskLog taskLog)
         {
+            var output = 0;
             var userGT = _context.UserGroupTasks.Where(x => x.UserGroupTaskId == taskLog.UserGroupTaskId).FirstOrDefault();
             if (userGT != null)
             {
-                var status = userGT.StatusId;
-                if (status == 1 || status == 4)
+                var taskId=userGT.TaskId;
+                var list1 = _context.UserGroupTasks.Where(x =>( x.TaskId == taskId && (x.StatusId==2 || x.StatusId==3))).FirstOrDefault();
+
+                if (list1 == null)
                 {
                     var newTask = new TaskLog
                     {
@@ -179,16 +182,28 @@ namespace TaskManagerWebApi.Repository
                     {
 
                         int res = await UpdateUserGroupTaskStatus(taskLog.StatusId, taskLog.UserGroupTaskId);
-                        return TaskLogId;
+                        output = TaskLogId;
+                        return output;
                     }
                     else
-                        return 0;//Some error occured
+                    {
+                        output = 0;
+                        return output;
+                    }
+
                 }
                 else
-                    return -1;//task already assigned
+                {
+                    output = -1;
+                    return output;
+                }
+               
             }
             else
-                return 0;//task already assigned
+            {
+                output = 0;
+                return output;
+            }
         }
     
         public async Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id)

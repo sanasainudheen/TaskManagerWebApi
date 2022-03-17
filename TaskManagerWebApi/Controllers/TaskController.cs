@@ -143,6 +143,7 @@ namespace TaskManagerWebApi.Controllers
                 {
                     Message = "Task is already assigned",
                     IsSuccess = false,
+                    ReturnValue = -1
                 });
             }
             else
@@ -151,6 +152,7 @@ namespace TaskManagerWebApi.Controllers
                 {
                     Message = "Some error happened",
                     IsSuccess = false,
+                    ReturnValue = 0
                 });
             }
         }
