@@ -43,6 +43,7 @@ namespace TaskManagerWebApi.Controllers
             await roleManager.CreateAsync(role2);
             ApplicationUser user = new ApplicationUser()
             {
+                Name = "Admin",
                 UserName = "admin",
                 Email = "admin@mail.com"
 

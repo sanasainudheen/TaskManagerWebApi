@@ -51,24 +51,27 @@ namespace TaskManagerWebApi.Controllers
             var user = await userManager.FindByNameAsync(_userCredential.UserName);
             if (user == null)
             {
-                return Ok(new UserManagerResponse { Message = "Wrong Creadentials", IsSuccess = false });
+                return Ok(new UserManagerResponse { Message = "Wrong Credentials", IsSuccess = false });
             }
-            var token = _jwtAuth.Authentication(_userCredential.UserName, _userCredential.Password);
-            if (token == null)
-                return Unauthorized();
-            var rolename = "User";
-            if (await userManager.IsInRoleAsync(user, "Admin"))
-                rolename = "Admin";
-            //  return Ok(token);
-
-            return Ok(new LoginResponse
+            else
             {
-                Message = token,
-                IsSuccess = true,
-                RoleName = rolename,
-                UserId= user.Id
-               
-            });
+                var token = _jwtAuth.Authentication(_userCredential.UserName, _userCredential.Password);
+                if (token == null)
+                    return Unauthorized();
+                var rolename = "User";
+                if (await userManager.IsInRoleAsync(user, "Admin"))
+                    rolename = "Admin";
+                //  return Ok(token);
+
+                return Ok(new LoginResponse
+                {
+                    Message = token,
+                    IsSuccess = true,
+                    RoleName = rolename,
+                    UserId = user.Id
+
+                });
+            }
         }
     }
 }

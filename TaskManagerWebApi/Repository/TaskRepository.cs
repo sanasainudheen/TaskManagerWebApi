@@ -155,29 +155,40 @@ namespace TaskManagerWebApi.Repository
 
         public async Task<int> AssignTaskToUser([FromBody] TaskLog taskLog)
         {
-
-            var newTask = new TaskLog
+            var userGT = _context.UserGroupTasks.Where(x => x.UserGroupTaskId == taskLog.UserGroupTaskId).FirstOrDefault();
+            if (userGT != null)
             {
+                var status = userGT.StatusId;
+                if (status == 1 || status == 4)
+                {
+                    var newTask = new TaskLog
+                    {
 
-                UserGroupTaskId = taskLog.UserGroupTaskId,
-                UserId = taskLog.UserId,
-                StatusId = taskLog.StatusId,
-                Attachment=taskLog.Attachment ,
-                Note = taskLog.Note,
-                CreatedBy = taskLog.CreatedBy,
-                CreatedOn = taskLog.CreatedOn,
-            };
-            _context.TaskLogTable.Add(newTask);
-            var result = await _context.SaveChangesAsync();
-            var TaskLogId = newTask.LogId;
-            if (result > 0)
-            {
+                        UserGroupTaskId = taskLog.UserGroupTaskId,
+                        UserId = taskLog.UserId,
+                        StatusId = taskLog.StatusId,
+                        Attachment = taskLog.Attachment,
+                        Note = taskLog.Note,
+                        CreatedBy = taskLog.CreatedBy,
+                        CreatedOn = taskLog.CreatedOn,
+                    };
+                    _context.TaskLogTable.Add(newTask);
+                    var result = await _context.SaveChangesAsync();
+                    var TaskLogId = newTask.LogId;
+                    if (result > 0)
+                    {
 
-                int res = await UpdateUserGroupTaskStatus(taskLog.StatusId, taskLog.UserGroupTaskId);
-                return TaskLogId;
+                        int res = await UpdateUserGroupTaskStatus(taskLog.StatusId, taskLog.UserGroupTaskId);
+                        return TaskLogId;
+                    }
+                    else
+                        return 0;//Some error occured
+                }
+                else
+                    return -1;//task already assigned
             }
             else
-                return 0;
+                return 0;//task already assigned
         }
     
         public async Task<List<GroupTasksByUser>> GetGroupTasksByUser(string id)

@@ -128,13 +128,21 @@ namespace TaskManagerWebApi.Controllers
         {
 
             var id = await _taskRepository.AssignTaskToUser(taskLog);
-            if (id != 0)
+            if (id >0)
             {
                 return Ok(new UserManagerResponse
                 {
                     Message = "Task has been assigned to the user successfully.",
                     IsSuccess = true,
                     ReturnValue=id
+                });
+            }
+            else if(id == -1)
+            {
+                return Ok(new UserManagerResponse
+                {
+                    Message = "Task is already assigned",
+                    IsSuccess = false,
                 });
             }
             else
